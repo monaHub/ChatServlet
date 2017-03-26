@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/LogIn")
 public class LogInChat extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L; 
        
     /**
      * @see HttpServlet#HttpServlet()
