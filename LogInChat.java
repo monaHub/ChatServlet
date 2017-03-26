@@ -29,10 +29,12 @@ public class LogInChat extends HttpServlet {
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 		String log="";
-		log += "<html><body><form action='Choosechat'><input type='String' name='user' id='user' >"+
-	" <input type='String' name='pass' id='pass'><br>"+
+		log += "<html><body><form action='Choosechat'>"
+				+ " <center><fieldset>"
++    "<legend>LogIn Form</legend> <input type='String' name='user' id='user' >"+
+	" <input type='String' name='pass' id='pass'><br></fieldset>"+
 	" <button type='submit'>LogIn</button>"+
-	"<p id='demo'></p></form></body></html>";
+	"<p id='demo'></p></center></form></body></html>";
 		response.getWriter().append(log);
 		
 		
